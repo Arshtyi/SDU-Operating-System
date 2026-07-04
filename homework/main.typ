@@ -54,9 +54,9 @@
 #set document(title: Title, author: author, date: date)
 #title(Title)
 #exam-info(info: (
-    班级: "24智能",
+    班级: "24数据·24智能",
     教师: "刘健中",
-    源码: link("https://github.com/arshtyi/SDU-Operating-System", "source"),
+    源码: link("https://github.com/arshtyi/SDU-Operating-System", "link"),
 ))
 
 = No.1

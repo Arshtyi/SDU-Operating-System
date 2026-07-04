@@ -11,26 +11,24 @@
     list-spacing: .65em,
 )
 #set par(justify: true)
-#show link: it => text(fill: blue.darken(40%), underline(it))
-#show raw: set text(font: ("JetBrains Mono", "Noto Serif CJK SC"))
+#show raw: set text(font: "JetBrains Mono")
 #show raw.where(block: false): box.with(
     fill: luma(240),
     inset: (x: .3em, y: 0em),
     outset: (x: 0em, y: .3em),
     radius: .2em,
 )
-#let question = question.with(supplement: "Q", ref-on: true, show-ref-prefix: false)
 #let Title = "山东大学计算机科学与技术学院操作系统期中考试"
 #let author = "arshtyi"
 #let date = datetime.today()
 #set document(title: Title, author: author, date: date)
 #title(Title)
 #exam-info(info: (
-    班级: "24智能",
+    班级: "24数据·24智能",
     教师: "刘健中",
-    源码: link("https://github.com/arshtyi/SDU-Operating-System", "source"),
+    源码: link("https://github.com/arshtyi/SDU-Operating-System", "link"),
 ))
-#notice[24级没考。][智慧树上选项顺序每次都会变。同时评测系统也很弱智。]
+#notice[24数据·24智能对此未作要求。]
 #let paren = paren.with(placeholder: none)
 #let fillin = fillin.with(placeholder: none)
 #let choices = choices.with(r-gap: .5em)

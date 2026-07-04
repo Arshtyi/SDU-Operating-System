@@ -1,8 +1,5 @@
 #import "@preview/ezexam:0.3.1": *
-#import "@preview/subpar:0.2.2"
-#import "@preview/fletcher:0.5.8" as fletcher: diagram, edge, node
 #import "@preview/zero:0.6.1": num, set-num, set-unit, zi
-#import "@preview/pinit:0.2.2": *
 
 #show: setup.with(
     mode: EXAM,
@@ -49,7 +46,7 @@
 
 #title(Title)
 #exam-info(info: (
-    班级: "24智能",
+    班级: "24数据·24智能",
     教师: "刘健中",
     源码: link("https://github.com/arshtyi/SDU-Operating-System", "source"),
 ))
